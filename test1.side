@@ -1,0 +1,195 @@
+{
+  "id": "b9014986-5546-4d95-bed5-ed0bbe726512",
+  "version": "2.0",
+  "name": "test1",
+  "url": "http://localhost:8080",
+  "tests": [{
+    "id": "0284c722-6dea-4caf-96c7-d7f29da69ec6",
+    "name": "test1",
+    "commands": [{
+      "id": "502e2d15-9684-4895-b42a-deff2bb586fa",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "32ce1cc0-16bc-4707-9453-7beab5b70bed",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1528x873",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f1b60fbd-f2a4-4edc-9558-fdd1c1c699fb",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "linkText=New Item",
+      "targets": [
+        ["linkText=New Item", "linkText"],
+        ["css=.task:nth-child(1) .task-link", "css:finder"],
+        ["xpath=//div[@id='tasks']/div/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/view/all/newJob')]", "xpath:href"],
+        ["xpath=//span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'New Item')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8410d554-e0c3-4282-9ef6-5b9a4cc24848",
+      "comment": "",
+      "command": "type",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//form[@id='createItem']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "abc"
+    }, {
+      "id": "28b6b8ec-e0be-4334-8d81-6ed008d47fd7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.org_jenkinsci_plugins_workflow_job_WorkflowJob .desc",
+      "targets": [
+        ["css=.org_jenkinsci_plugins_workflow_job_WorkflowJob .desc", "css:finder"],
+        ["xpath=//div[@id='j-add-item-type-standalone-projects']/ul/li[2]/div[2]/div", "xpath:idRelative"],
+        ["xpath=//li[2]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "412ade09-a6e5-4db7-b6f3-0bb81cd6acd3",
+      "comment": "",
+      "command": "click",
+      "target": "id=ok-button",
+      "targets": [
+        ["id=ok-button", "id"],
+        ["css=#ok-button", "css:finder"],
+        ["xpath=//button[@id='ok-button']", "xpath:attributes"],
+        ["xpath=//div[@id='bottom-sticker']/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a968de42-98f1-46d8-88aa-ceb17819ac60",
+      "comment": "",
+      "command": "click",
+      "target": "id=ok-button",
+      "targets": [
+        ["id=ok-button", "id"],
+        ["css=#ok-button", "css:finder"],
+        ["xpath=//button[@id='ok-button']", "xpath:attributes"],
+        ["xpath=//div[@id='bottom-sticker']/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "43227440-b64f-4e41-964a-c20f9f6d20f3",
+      "comment": "",
+      "command": "click",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//form[@id='createItem']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ae34dc0-429e-4303-9014-2c9908401633",
+      "comment": "",
+      "command": "type",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//form[@id='createItem']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "abcd12"
+    }, {
+      "id": "d056007a-a08b-44b0-87cd-02a343600b3f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.org_jenkinsci_plugins_workflow_job_WorkflowJob .desc",
+      "targets": [
+        ["css=.org_jenkinsci_plugins_workflow_job_WorkflowJob .desc", "css:finder"],
+        ["xpath=//div[@id='j-add-item-type-standalone-projects']/ul/li[2]/div[2]/div", "xpath:idRelative"],
+        ["xpath=//li[2]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c2f1306-5d4a-42e0-a64d-b1cc3a9f0462",
+      "comment": "",
+      "command": "click",
+      "target": "id=ok-button",
+      "targets": [
+        ["id=ok-button", "id"],
+        ["css=#ok-button", "css:finder"],
+        ["xpath=//button[@id='ok-button']", "xpath:attributes"],
+        ["xpath=//div[@id='bottom-sticker']/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0184a169-2e70-4800-b459-be5f675597b9",
+      "comment": "",
+      "command": "click",
+      "target": "name=description",
+      "targets": [
+        ["name=description", "name"],
+        ["css=.jenkins-input:nth-child(2)", "css:finder"],
+        ["xpath=//textarea[@name='description']", "xpath:attributes"],
+        ["xpath=//div[@id='main-panel']/form/div/div[2]/div/div[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a226ff8-9d26-40b7-a284-245b4ec3b9ae",
+      "comment": "",
+      "command": "type",
+      "target": "name=description",
+      "targets": [
+        ["name=description", "name"],
+        ["css=.jenkins-input:nth-child(2)", "css:finder"],
+        ["xpath=//textarea[@name='description']", "xpath:attributes"],
+        ["xpath=//div[@id='main-panel']/form/div/div[2]/div/div[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "hi hello"
+    }, {
+      "id": "7078913d-7290-43e6-a95c-74e1349c3111",
+      "comment": "",
+      "command": "click",
+      "target": "name=Submit",
+      "targets": [
+        ["name=Submit", "name"],
+        ["css=.jenkins-submit-button", "css:finder"],
+        ["xpath=//button[@name='Submit']", "xpath:attributes"],
+        ["xpath=//div[@id='bottom-sticker']/div/button", "xpath:idRelative"],
+        ["xpath=//div[6]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Save')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "0a077071-601c-4ee2-a202-4dbde9a45c30",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0284c722-6dea-4caf-96c7-d7f29da69ec6"]
+  }],
+  "urls": ["http://localhost:8080/"],
+  "plugins": []
+}
